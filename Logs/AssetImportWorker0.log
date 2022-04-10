@@ -1,0 +1,1115 @@
+Using pre-set license
+Built from '2020.3/staging' branch; Version is '2020.3.20f1 (41c4e627c95f) revision 4310246'; Using compiler version '192528614'; Build Type 'Release'
+OS: 'Windows 10 Pro; OS build 19044.1586; Version 2009; 64bit' Language: 'tr' Physical Memory: 16301 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 0
+
+COMMAND LINE ARGUMENTS:
+E:\UnityEditor\2020.3.20f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+E:/Forest Chase
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64478
+Successfully changed project path to: E:/Forest Chase
+E:/Forest Chase
+Using Asset Import Pipeline V2.
+Refreshing native plugins compatible for Editor in 45.86 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2020.3.20f1 (41c4e627c95f)
+[Subsystems] Discovering subsystems at path E:/UnityEditor/2020.3.20f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path E:/Forest Chase/Assets
+GfxDevice: creating device client; threaded=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2070 (ID=0x1f07)
+    Vendor:   
+    VRAM:     8031 MB
+    Driver:   30.0.15.1123
+Initialize mono
+Mono path[0] = 'E:/UnityEditor/2020.3.20f1/Editor/Data/Managed'
+Mono path[1] = 'E:/UnityEditor/2020.3.20f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit'
+Mono config path = 'E:/UnityEditor/2020.3.20f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56052
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: E:/UnityEditor/2020.3.20f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.000925 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 45.92 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.786 seconds
+Domain Reload Profiling:
+	ReloadAssembly (786ms)
+		BeginReloadAssembly (42ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (371ms)
+			LoadAssemblies (42ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (139ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (25ms)
+			SetupLoadedEditorAssemblies (149ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (46ms)
+				BeforeProcessingInitializeOnLoad (13ms)
+				ProcessInitializeOnLoadAttributes (64ms)
+				ProcessInitializeOnLoadMethodAttributes (23ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001693 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 41.81 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.957 seconds
+Domain Reload Profiling:
+	ReloadAssembly (958ms)
+		BeginReloadAssembly (123ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (789ms)
+			LoadAssemblies (71ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (245ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (41ms)
+			SetupLoadedEditorAssemblies (329ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (3ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (42ms)
+				BeforeProcessingInitializeOnLoad (56ms)
+				ProcessInitializeOnLoadAttributes (218ms)
+				ProcessInitializeOnLoadMethodAttributes (6ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (7ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.07 seconds
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1861 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 97.8 MB.
+System memory in use after: 97.9 MB.
+
+Unloading 19 unused Assets to reduce memory usage. Loaded Objects now: 2325.
+Total: 2.743400 ms (FindLiveObjects: 0.197100 ms CreateObjectMapping: 0.065200 ms MarkObjects: 2.405700 ms  DeleteObjects: 0.074700 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  path: Assets/Textures/Materials/Summer_Moss.mat
+  artifactKey: Guid(ee8af93f6543af1418cb59d1c38e78be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Materials/Summer_Moss.mat using Guid(ee8af93f6543af1418cb59d1c38e78be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e3792c2f71f29169e1914256d135d757') in 0.203794 seconds 
+  Import took 0.206798 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 7.176566 seconds.
+  path: Assets/Grass/Materials/Stylize_Grass_diffuse.mat
+  artifactKey: Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass/Materials/Stylize_Grass_diffuse.mat using Guid(516e6f11e8de6624eb6be4bac8c14555) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a71802876d4fc5af30251f4e058d487') in 0.013720 seconds 
+  Import took 0.016236 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 106.740700 seconds.
+  path: Assets/Grass/Textures
+  artifactKey: Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass/Textures using Guid(70867da6bf5f23744b22677a580e0ad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '95989f510de77030a5ede8cd9992586e') in 0.004014 seconds 
+  Import took 0.006840 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.058745 seconds.
+  path: Assets/Grass/Textures/Vol_42_1_Ambient_Occlusion.png
+  artifactKey: Guid(33ba5140ff8350742a9be1b79eeefd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass/Textures/Vol_42_1_Ambient_Occlusion.png using Guid(33ba5140ff8350742a9be1b79eeefd82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c3eb580ab9e83da44c8c59c5dbfe2ba7') in 0.019888 seconds 
+  Import took 0.022367 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000291 seconds.
+  path: Assets/Grass/Textures/Vol_42_1_Roughness.png
+  artifactKey: Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass/Textures/Vol_42_1_Roughness.png using Guid(7c71c756b680c1a47b27345dccbbc51f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ccf5e4034239d7e7a9f8459583c14972') in 0.013478 seconds 
+  Import took 0.015695 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Grass/Textures/Vol_42_1_Height.png
+  artifactKey: Guid(c24c005cb31b0514a85361709b63fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass/Textures/Vol_42_1_Height.png using Guid(c24c005cb31b0514a85361709b63fa93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870b0743ca667d56192a157c60b6e3c3') in 0.022875 seconds 
+  Import took 0.025197 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Grass/Textures/Vol_42_1_Normal.png
+  artifactKey: Guid(9e91cd5bde426714d9f0ef165f143d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass/Textures/Vol_42_1_Normal.png using Guid(9e91cd5bde426714d9f0ef165f143d7c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c103f145782157d1d9be6c3837f1e9c3') in 0.028098 seconds 
+  Import took 0.030505 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 13.391492 seconds.
+  path: Assets/Grass/Scene
+  artifactKey: Guid(35c51be547b1b5149808eae4a6922fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Grass/Scene using Guid(35c51be547b1b5149808eae4a6922fc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7ae147fe69a04e4347a157c3f672dd95') in 0.004131 seconds 
+  Import took 0.006624 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1223.279353 seconds.
+  path: Assets/New Terrain 1.asset
+  artifactKey: Guid(2f60a91ac9393ab4db2848b42d2973d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain 1.asset using Guid(2f60a91ac9393ab4db2848b42d2973d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f3778b9e0796bfc1037ed7668fd0bd43') in 0.011168 seconds 
+  Import took 0.014506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000288 seconds.
+  path: Assets/New Terrain.asset
+  artifactKey: Guid(f45bebfa0c41ee44084657696acea4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/New Terrain.asset using Guid(f45bebfa0c41ee44084657696acea4da) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db57f2531bb406a368e419ff54c0c55a') in 0.008002 seconds 
+  Import took 0.010637 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 98.120103 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Grass.png
+  artifactKey: Guid(9709e23867081984fabb092ec5f720be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Grass.png using Guid(9709e23867081984fabb092ec5f720be) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1acb851346cc4635ee7ff51e4ae4c4a') in 0.009289 seconds 
+  Import took 0.012034 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 44.432555 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Birch_bark_d.png
+  artifactKey: Guid(b9b6b444c3816a240aaf529b658420b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Birch_bark_d.png using Guid(b9b6b444c3816a240aaf529b658420b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9dc1bffc00080cdd5e4d523f802f0e01') in 0.008851 seconds 
+  Import took 0.011643 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000242 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Birch_branch_d.png
+  artifactKey: Guid(bdc5797fe8b5f014698ea5f5b2408708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Birch_branch_d.png using Guid(bdc5797fe8b5f014698ea5f5b2408708) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '617be25aa86fa86b50c3b2a2f1f13e63') in 0.013083 seconds 
+  Import took 0.015548 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.470700 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Bridge_d.png
+  artifactKey: Guid(95437d536ed8667409c811beccfb2c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Bridge_d.png using Guid(95437d536ed8667409c811beccfb2c94) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '42f83d510215ffb4bd5bd16a5af0e7be') in 0.009486 seconds 
+  Import took 0.012035 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000269 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Bush01_d.png
+  artifactKey: Guid(62e28d1aa8762514fa439ffebdf28a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Bush01_d.png using Guid(62e28d1aa8762514fa439ffebdf28a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b55cb11c9c9486d319eb36f5758f12bd') in 0.009666 seconds 
+  Import took 0.011971 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.511770 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Bush02_d.png
+  artifactKey: Guid(c58e1d61e2deedd4989d937c27915f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Bush02_d.png using Guid(c58e1d61e2deedd4989d937c27915f40) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '39c176666522dc86b58475258de4e41c') in 0.009428 seconds 
+  Import took 0.012316 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.011443 seconds.
+  path: Assets/Textures/Textures/Cave_Bush.png
+  artifactKey: Guid(f66cf91fe79cffe4bbe6a155e61e4bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Cave_Bush.png using Guid(f66cf91fe79cffe4bbe6a155e61e4bb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cb75f1ca6cce5bd65e8c33f0cbfc26c3') in 0.011737 seconds 
+  Import took 0.014155 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026023 seconds.
+  path: Assets/Textures/Textures/Cave_Cracks.png
+  artifactKey: Guid(a2cd67599aa6c4749a6d6dae988081e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Cave_Cracks.png using Guid(a2cd67599aa6c4749a6d6dae988081e1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4027f854430a503d7515469bc323eb3d') in 0.013427 seconds 
+  Import took 0.016612 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000279 seconds.
+  path: Assets/Textures/Textures/Cave_Crystal_A.png
+  artifactKey: Guid(44574b134f468f746bb51c8099e9fddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Cave_Crystal_A.png using Guid(44574b134f468f746bb51c8099e9fddf) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dde90ae021bad8b69ccff15ed8989bec') in 0.009110 seconds 
+  Import took 0.011762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036998 seconds.
+  path: Assets/Textures/Textures/Cave_FireGround.png
+  artifactKey: Guid(2c3a68b4404445e44bff84d1bb91c1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Cave_FireGround.png using Guid(2c3a68b4404445e44bff84d1bb91c1f5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17f5fbe5c39a532f20740789c99a6ca8') in 0.008540 seconds 
+  Import took 0.010979 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000264 seconds.
+  path: Assets/Textures/Textures/Cave_GoldenPebbles.png
+  artifactKey: Guid(e63e6b5575cf91b4883ed33d002c8606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Cave_GoldenPebbles.png using Guid(e63e6b5575cf91b4883ed33d002c8606) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c36386591543e6fa4215f56d7fd15ffe') in 0.009598 seconds 
+  Import took 0.011865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.370564 seconds.
+  path: Assets/Textures/Textures/Cave_LavaRocks_A.png
+  artifactKey: Guid(a36ddfdef00715d48be4ba9fb4e538ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Cave_LavaRocks_A.png using Guid(a36ddfdef00715d48be4ba9fb4e538ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '81e7d1da67aabc41297d2ec880da8a27') in 0.009018 seconds 
+  Import took 0.011914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Textures/Textures/Cave_Magma.png
+  artifactKey: Guid(d028d237290dff545b1ac2636948f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Cave_Magma.png using Guid(d028d237290dff545b1ac2636948f0a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fe2bd0654a9bbb575cbe528eefffc30') in 0.008807 seconds 
+  Import took 0.011803 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.049516 seconds.
+  path: Assets/Textures/Textures/Cave_Magma_B.png
+  artifactKey: Guid(f3f73fae8b0080b4b8c78a03d205b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Cave_Magma_B.png using Guid(f3f73fae8b0080b4b8c78a03d205b2e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ce3506a6990ae6983e5f70a30770701') in 0.011542 seconds 
+  Import took 0.014126 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000233 seconds.
+  path: Assets/Textures/Textures/Cave_Poison.png
+  artifactKey: Guid(bdbfd93040393854cb6e0e0af9b8d3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Cave_Poison.png using Guid(bdbfd93040393854cb6e0e0af9b8d3c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bb930be62d9b2eb51a846e0343b95635') in 0.009613 seconds 
+  Import took 0.012154 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.319635 seconds.
+  path: Assets/Textures/Textures/Cave_Spores.png
+  artifactKey: Guid(9289c7337ada4bc45959b4ff82b1b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Cave_Spores.png using Guid(9289c7337ada4bc45959b4ff82b1b784) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd85e5ecac9e3dc3e752bbe7ba48e8c45') in 0.008973 seconds 
+  Import took 0.011806 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.620284 seconds.
+  path: Assets/Textures/Textures/Desert_Bushes.png
+  artifactKey: Guid(374f043a3f99333449e20804007556c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Desert_Bushes.png using Guid(374f043a3f99333449e20804007556c2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f0f1c177bc9df96b679967299a51d7f') in 0.010919 seconds 
+  Import took 0.013529 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Textures/Textures/Desert_Cliff.png
+  artifactKey: Guid(f19def3b08a4bf34da11bd34756ee17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Desert_Cliff.png using Guid(f19def3b08a4bf34da11bd34756ee17f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '992f527839e0e699b506e29ced54fee5') in 0.010502 seconds 
+  Import took 0.012914 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025020 seconds.
+  path: Assets/Textures/Textures/Desert_CracedMud.png
+  artifactKey: Guid(b88cf445d47d9e541b35828d81ffce51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Desert_CracedMud.png using Guid(b88cf445d47d9e541b35828d81ffce51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '45c3ea7bc79cac5fd42206f9f13c4cae') in 0.012737 seconds 
+  Import took 0.015699 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Textures/Textures/Desert_Sand.png
+  artifactKey: Guid(06114477b9be4c649a45f9fc21dc00c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Desert_Sand.png using Guid(06114477b9be4c649a45f9fc21dc00c6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88e097de5893549709632181594daf8f') in 0.012652 seconds 
+  Import took 0.015157 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.366757 seconds.
+  path: Assets/Textures/Textures/Desert_Sand_A.png
+  artifactKey: Guid(8970d1266546d104d9e26a1a97f2c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Desert_Sand_A.png using Guid(8970d1266546d104d9e26a1a97f2c74f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a0a15b9c05b07cdc9b39476789b098e') in 0.011766 seconds 
+  Import took 0.014451 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Textures/Textures/Desert_Sand_B.png
+  artifactKey: Guid(970ad6b6e3accb640a4bb916a1034bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Desert_Sand_B.png using Guid(970ad6b6e3accb640a4bb916a1034bd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '76be0e1c0f47cab6a5c319a184ca1d42') in 0.011673 seconds 
+  Import took 0.013874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027737 seconds.
+  path: Assets/Textures/Textures/Desert_Tiles.png
+  artifactKey: Guid(7ff4f34c25ccd794ca7398e9f4492282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Desert_Tiles.png using Guid(7ff4f34c25ccd794ca7398e9f4492282) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e915edc46a0ef90d7dfa87e69b055c13') in 0.017396 seconds 
+  Import took 0.020363 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.864967 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Props/Fence_d.png
+  artifactKey: Guid(3be7aa9edebf7d143b02cd75461e2b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Props/Fence_d.png using Guid(3be7aa9edebf7d143b02cd75461e2b9a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ef7f8e0073329b9a11c547616e36d3b') in 0.009551 seconds 
+  Import took 0.012003 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000235 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Fir_bark_d.png
+  artifactKey: Guid(5d81403ec3e78f24da374ab29fc35889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Fir_bark_d.png using Guid(5d81403ec3e78f24da374ab29fc35889) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ff059205376e02487313408adc436ac') in 0.009430 seconds 
+  Import took 0.011847 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.047067 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Fir_branch_d.png
+  artifactKey: Guid(87c48f8e50e12894a994ce2c547f6f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Fir_branch_d.png using Guid(87c48f8e50e12894a994ce2c547f6f7a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e0d9a16acc7e25d7705383c99fe28fc') in 0.023603 seconds 
+  Import took 0.026055 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000244 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Fire.png
+  artifactKey: Guid(93e4fbd2e4a664cf48ec6ce2efba467f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Fire.png using Guid(93e4fbd2e4a664cf48ec6ce2efba467f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef6343598da2b6186a3e1903e53b4068') in 0.018538 seconds 
+  Import took 0.021265 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000213 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Glow.png
+  artifactKey: Guid(42bff2cb164f7405faaff43d2c9a5858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Glow.png using Guid(42bff2cb164f7405faaff43d2c9a5858) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6e14e4244a252f8119836b498536467f') in 0.020643 seconds 
+  Import took 0.023273 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.668007 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Grass_flowers.png
+  artifactKey: Guid(c77f87b18aa424f4e904fd1de19fe247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Grass_flowers.png using Guid(c77f87b18aa424f4e904fd1de19fe247) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e9dcbdbfdc510c517b1f92940a9fd0f0') in 0.009615 seconds 
+  Import took 0.012238 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png
+  artifactKey: Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_BaseMap.png using Guid(d1118dda59970a2449ee890fa247c4c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '397aeea3e865a76b8ec7cfbbf3d0150e') in 0.008825 seconds 
+  Import took 0.011578 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.120774 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png
+  artifactKey: Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Emissive.png using Guid(d4d6919451fe3e24388816386a6d15a4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c04b77f1d61b4051d6959bc7e6f9e442') in 0.010316 seconds 
+  Import took 0.012774 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000280 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png
+  artifactKey: Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_01_Normal.png using Guid(c5c221ed57a3bf6488f8eba0db28a004) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c49c29fe3385680971f25ee835094c19') in 0.008979 seconds 
+  Import took 0.011514 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.073251 seconds.
+  path: Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png
+  artifactKey: Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Environment/Art/Textures/Grid_02_BaseMap.png using Guid(d9c0dd5cdac07b145be73329e489869a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '005428bfc2cb0415b71c87940ae231f8') in 0.011221 seconds 
+  Import took 0.013881 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.336157 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Ground.png
+  artifactKey: Guid(35acb34319e7f224095467c974ffd213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Ground.png using Guid(35acb34319e7f224095467c974ffd213) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9215ba5e1c14f5eff23c24251f1ec5c9') in 0.009996 seconds 
+  Import took 0.012694 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000249 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Ground_stone.png
+  artifactKey: Guid(d7dfed569b9ecf9449cda366bc8a4a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Ground_stone.png using Guid(d7dfed569b9ecf9449cda366bc8a4a8c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '092d226639a475c9254dad91ac161ab5') in 0.009904 seconds 
+  Import took 0.012168 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.032603 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Mushrooms01_d.png
+  artifactKey: Guid(f71f3fcc2260b7345b65d83733b87bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Mushrooms01_d.png using Guid(f71f3fcc2260b7345b65d83733b87bd8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f30f8c660f8ac6b001edd1ccc239d1c8') in 0.016238 seconds 
+  Import took 0.018874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Mushrooms01_e.png
+  artifactKey: Guid(3706cb2257a06354782130d31c45964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Mushrooms01_e.png using Guid(3706cb2257a06354782130d31c45964a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75a04add005c14f879647882d5240f3f') in 0.008554 seconds 
+  Import took 0.011063 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 17.953661 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Mushrooms02_d.png
+  artifactKey: Guid(c155a97b44bf4d849b1373af04036419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Mushrooms02_d.png using Guid(c155a97b44bf4d849b1373af04036419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '05230f8ecc1f5d188a2b9238be235e77') in 0.007947 seconds 
+  Import took 0.010802 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000256 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Mushrooms02_e.png
+  artifactKey: Guid(5c3eb00a3ecf5df438df7a903b857614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Mushrooms02_e.png using Guid(5c3eb00a3ecf5df438df7a903b857614) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8f2b51cff3a115643e1b8d50c90b1c78') in 0.007965 seconds 
+  Import took 0.010533 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.045259 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Mushrooms03_d.png
+  artifactKey: Guid(0b54492692c3a834e835e32a922982fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Mushrooms03_d.png using Guid(0b54492692c3a834e835e32a922982fe) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ad2bfa420b889192a22400e3a63cca2f') in 0.019135 seconds 
+  Import took 0.021919 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Oak_bark_d.png
+  artifactKey: Guid(afef7b2a1fb9b9a4097eaceb1ae1eb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Oak_bark_d.png using Guid(afef7b2a1fb9b9a4097eaceb1ae1eb24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '82f46b8ac4e0620c88cc28687c474498') in 0.018538 seconds 
+  Import took 0.021176 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.415733 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Oak_branch_d.png
+  artifactKey: Guid(b1f7d094462580e4b9518589f401669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Plants/Oak_branch_d.png using Guid(b1f7d094462580e4b9518589f401669f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9356477ee4fddc8fd651abd077a9baaf') in 0.008334 seconds 
+  Import took 0.010769 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Particle.png
+  artifactKey: Guid(d98a7bcd3b016594baae326f20b26e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Particle.png using Guid(d98a7bcd3b016594baae326f20b26e1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf0ff1668ef95dbf69535df4b7745cd2') in 0.009166 seconds 
+  Import took 0.011714 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.332899 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Photoshop. Red Flag, Model A.psd
+  artifactKey: Guid(65aedf915acf34dd8bc04474acb108c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Photoshop. Red Flag, Model A.psd using Guid(65aedf915acf34dd8bc04474acb108c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41d468f84258faf60218fc832461dbe9') in 0.016120 seconds 
+  Import took 0.018571 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Photoshop. Red Flag, Model B Square.psd
+  artifactKey: Guid(5fa4647589771449eb69903bd62239bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Photoshop. Red Flag, Model B Square.psd using Guid(5fa4647589771449eb69903bd62239bc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8acec725fdc87f77460b89974426b5c3') in 0.012371 seconds 
+  Import took 0.014614 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.037578 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Plants.png
+  artifactKey: Guid(642aace2bb9714199a263451196ecd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Plants.png using Guid(642aace2bb9714199a263451196ecd18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d1c519339e67486c4311a7a4ea1694e') in 0.011817 seconds 
+  Import took 0.014646 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.741654 seconds.
+  path: Assets/StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG
+  artifactKey: Guid(44a17a5b205fcd349a24700e6f5615bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/TutorialInfo/Icons/ReadMeImg.PNG using Guid(44a17a5b205fcd349a24700e6f5615bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c1fc65fba5af094b238c48ac583c73c') in 0.009449 seconds 
+  Import took 0.011925 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Red Flag, Model A.png
+  artifactKey: Guid(e30ea6173f15c4efdb5244d17abbcc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Red Flag, Model A.png using Guid(e30ea6173f15c4efdb5244d17abbcc30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b005d5742f8cf83c9a67c721d97d97ad') in 0.014113 seconds 
+  Import took 0.017079 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.043927 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Red Flag, Model B Square.png
+  artifactKey: Guid(d5e58395cb4a44c2cae03e722ce1edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Red Flag, Model B Square.png using Guid(d5e58395cb4a44c2cae03e722ce1edc7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '67b3a1b86f3494603fb8a59a79b70124') in 0.012299 seconds 
+  Import took 0.015093 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.159449 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Road.png
+  artifactKey: Guid(a1a5cbb801fee744582b0831db41102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Road.png using Guid(a1a5cbb801fee744582b0831db41102c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '93c749dd6d3aa19ddd80eecac2cc83e8') in 0.008157 seconds 
+  Import took 0.010738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000260 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Road_grass.png
+  artifactKey: Guid(324e4bf54dd10b044962116825d31249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Road_grass.png using Guid(324e4bf54dd10b044962116825d31249) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7b0f75c8df99500c286cf11c6fe4d932') in 0.008702 seconds 
+  Import took 0.011066 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.614101 seconds.
+  path: Assets/Village 2/Textures/rpgpp_lt_sky_a.tga
+  artifactKey: Guid(5c4fa0e44769f8f46a06d96031e56a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village 2/Textures/rpgpp_lt_sky_a.tga using Guid(5c4fa0e44769f8f46a06d96031e56a4e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8b1af3261368ae0b5fa42f9def0b178f') in 0.009546 seconds 
+  Import took 0.012026 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000232 seconds.
+  path: Assets/Village 2/Textures/rpgpp_lt_tex_a.tga
+  artifactKey: Guid(0bb174f69c9851a48b09bf7d8180c39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village 2/Textures/rpgpp_lt_tex_a.tga using Guid(0bb174f69c9851a48b09bf7d8180c39e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd745d1b280c82d806a7bb815526c311e') in 0.007250 seconds 
+  Import took 0.009738 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 3.216000 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Skybox_DAY.png
+  artifactKey: Guid(d5c888a4a87c0994582eb587ae6796e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Skybox_DAY.png using Guid(d5c888a4a87c0994582eb587ae6796e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9f2febc113e245db5663efd35f24eba') in 0.019750 seconds 
+  Import took 0.022526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.025646 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Skybox_NIGHT.png
+  artifactKey: Guid(6e93259f691fa6e448b229dada205ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Skybox_NIGHT.png using Guid(6e93259f691fa6e448b229dada205ae9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '01dc5164176fc455b2462bae21f7fa87') in 0.011387 seconds 
+  Import took 0.013868 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.409447 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Sparkles.png
+  artifactKey: Guid(f8c5cff3504cc477eb9a5a8f5e5d8a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Sparkles.png using Guid(f8c5cff3504cc477eb9a5a8f5e5d8a46) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '294766f83b5382c0252683a1c7b0742d') in 0.009355 seconds 
+  Import took 0.012368 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.075751 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/DEMO/Demo_terrain.asset
+  artifactKey: Guid(e8b144a040126af469be6e95040b0fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/DEMO/Demo_terrain.asset using Guid(e8b144a040126af469be6e95040b0fcd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c140659767a45eb3321143bf0d3cb726') in 0.030233 seconds 
+  Import took 0.033375 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.616380 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Stone.png
+  artifactKey: Guid(93c7a8803499d6a4c851f05c564b922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Stone.png using Guid(93c7a8803499d6a4c851f05c564b922a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '413cf7357f031fec06edc7b1ad0afa79') in 0.008917 seconds 
+  Import took 0.011753 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000234 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Stone01_d.png
+  artifactKey: Guid(07de31c302c5bec4482ba34d8866fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Stone01_d.png using Guid(07de31c302c5bec4482ba34d8866fb59) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd2725a8277681b450f0abc4267aae0a8') in 0.008389 seconds 
+  Import took 0.010735 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.076880 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Stone_rotated.png
+  artifactKey: Guid(aaa0e87b1e0a31e45840e875cf3d7a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Landscape/Stone_rotated.png using Guid(aaa0e87b1e0a31e45840e875cf3d7a33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bfa190d69411960d8b76b3b1540e4b5a') in 0.008376 seconds 
+  Import took 0.011309 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.027018 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Props/Streetlight_OFF_d.png
+  artifactKey: Guid(6d370f632bd275140b2b666b056a1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Props/Streetlight_OFF_d.png using Guid(6d370f632bd275140b2b666b056a1842) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a4ae232f3833e14ace7bbe7a6878949f') in 0.009591 seconds 
+  Import took 0.012471 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.107391 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Props/Streetlight_ON_d.png
+  artifactKey: Guid(eac2edaeeb2a19f4baf30b3c3120c402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Props/Streetlight_ON_d.png using Guid(eac2edaeeb2a19f4baf30b3c3120c402) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5b870a37fc87154a8958b1b0d2caf6f') in 0.008914 seconds 
+  Import took 0.011581 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Props/Streetlight_ON_e.png
+  artifactKey: Guid(cbc7a019f5642ff42987de337d061785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Props/Streetlight_ON_e.png using Guid(cbc7a019f5642ff42987de337d061785) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '60b17412a33cc64f4388a331acec85d3') in 0.008644 seconds 
+  Import took 0.011084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.421873 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Stump_tip_d.png
+  artifactKey: Guid(5646b18f1d3459f43a422aa3a86a83d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Stump_tip_d.png using Guid(5646b18f1d3459f43a422aa3a86a83d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9bf9fece57eb6fb1237bd5b6aef9698') in 0.007923 seconds 
+  Import took 0.010608 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Textures/Textures/Summer_CrackedRock.png
+  artifactKey: Guid(29b952018edebb44ca66eeedaa2411c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_CrackedRock.png using Guid(29b952018edebb44ca66eeedaa2411c7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e28b0295fdbac76f579c54c5129521c') in 0.010535 seconds 
+  Import took 0.012814 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.026156 seconds.
+  path: Assets/Textures/Textures/Summer_Dirt_A.png
+  artifactKey: Guid(14833b0b08b0a6945b0dd4f86360fe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_Dirt_A.png using Guid(14833b0b08b0a6945b0dd4f86360fe01) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8786dee78107276fd16823000b3c9277') in 0.016920 seconds 
+  Import took 0.019520 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000263 seconds.
+  path: Assets/Textures/Textures/Summer_Flowers.png
+  artifactKey: Guid(0d0a4eda378924a488fc68a509785635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_Flowers.png using Guid(0d0a4eda378924a488fc68a509785635) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '345e8e3aa3476687ef203b05b58f250c') in 0.010441 seconds 
+  Import took 0.013208 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.008005 seconds.
+  path: Assets/Textures/Textures/Summer_ForestRoad.png
+  artifactKey: Guid(5ba259208ad985146a301e08de183a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_ForestRoad.png using Guid(5ba259208ad985146a301e08de183a3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85edd2ca549389d258368581ed7cf2e2') in 0.015701 seconds 
+  Import took 0.018550 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000231 seconds.
+  path: Assets/Textures/Textures/Summer_Grass_A.png
+  artifactKey: Guid(182a5f5d56040f3489e143cb041f2f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_Grass_A.png using Guid(182a5f5d56040f3489e143cb041f2f10) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4af7d87ccf64750cc5388921e3a14858') in 0.019152 seconds 
+  Import took 0.022073 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004407 seconds.
+  path: Assets/Textures/Textures/Summer_Mud_A.png
+  artifactKey: Guid(ccbae51c789c51e4682f749aa91ce1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_Mud_A.png using Guid(ccbae51c789c51e4682f749aa91ce1ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '963017a8000dc9127ea431b1ba97e64f') in 0.022268 seconds 
+  Import took 0.024824 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.691339 seconds.
+  path: Assets/Textures/Textures/Summer_Mud_B.png
+  artifactKey: Guid(12cde8a4716b7ba4198829c1cede3e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_Mud_B.png using Guid(12cde8a4716b7ba4198829c1cede3e17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '914c7c6e29ee6e5658e710b8c8be8c31') in 0.009232 seconds 
+  Import took 0.011852 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000238 seconds.
+  path: Assets/Textures/Textures/Summer_RiverPebbles.png
+  artifactKey: Guid(0850fbb36b5346249a2687f29aa97e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_RiverPebbles.png using Guid(0850fbb36b5346249a2687f29aa97e58) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de5d16cdeeec163779d5f01f7b98f68e') in 0.010431 seconds 
+  Import took 0.012629 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 21.359513 seconds.
+  path: Assets/Textures/Textures/Summer_Rocks.png
+  artifactKey: Guid(fb4c9126ed8df1140868be39f7d0b4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_Rocks.png using Guid(fb4c9126ed8df1140868be39f7d0b4bb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41f1e2e83301ee00211c86f42460bb15') in 0.009322 seconds 
+  Import took 0.011825 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000258 seconds.
+  path: Assets/Textures/Textures/Summer_Roots.png
+  artifactKey: Guid(9160bb514caa5e641a0fc34cd91ce0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_Roots.png using Guid(9160bb514caa5e641a0fc34cd91ce0f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '41125ca6b636d7ad4d1f98ec055f4678') in 0.012758 seconds 
+  Import took 0.014993 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.222202 seconds.
+  path: Assets/Textures/Textures/Summer_Roses.png
+  artifactKey: Guid(330b1e96b6c1f3445ba9f4133e803a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_Roses.png using Guid(330b1e96b6c1f3445ba9f4133e803a71) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7dcd853ec3f8d0cb413c98a82c711500') in 0.009751 seconds 
+  Import took 0.012526 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000255 seconds.
+  path: Assets/Textures/Textures/Summer_Wall.png
+  artifactKey: Guid(b6729a0d44c32e94a9e0ead2606f79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Summer_Wall.png using Guid(b6729a0d44c32e94a9e0ead2606f79a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c8f5445b4b6bf80d39e6eab917c1b46c') in 0.011981 seconds 
+  Import took 0.014254 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.033517 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner A.png
+  artifactKey: Guid(6f92c6cdbb6234d79be1721287313fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner A.png using Guid(6f92c6cdbb6234d79be1721287313fc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d430fc2bb4168e09b6bb822368ea78f') in 0.029297 seconds 
+  Import took 0.031762 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner A - Wood.png
+  artifactKey: Guid(4cbe204b587344ff585eec1e35f7518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner A - Wood.png using Guid(4cbe204b587344ff585eec1e35f7518d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd62405a0c8e3f93bba81c64e8af69836') in 0.014268 seconds 
+  Import took 0.016700 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1.009521 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner B.png
+  artifactKey: Guid(25cd0edab0b0e4240858f6fc55eefa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner B.png using Guid(25cd0edab0b0e4240858f6fc55eefa33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '030c9031e2866f9fc6ceaea5de686a5a') in 0.011799 seconds 
+  Import took 0.014642 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000241 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner B - Wood.png
+  artifactKey: Guid(7e1686c07c9454cda8e730c693e42559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner B - Wood.png using Guid(7e1686c07c9454cda8e730c693e42559) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b077731c0a2378c4c902e57119e75d17') in 0.012471 seconds 
+  Import took 0.014850 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.372714 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner C.png
+  artifactKey: Guid(dfcdfc340d9e049c8bdecc37cac90beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner C.png using Guid(dfcdfc340d9e049c8bdecc37cac90beb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '85aeb0aa4c0844138729f21d44c063e6') in 0.011179 seconds 
+  Import took 0.013664 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000253 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner C - Wood.png
+  artifactKey: Guid(e38f0eeb7ce434efb92618f1890d711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner C - Wood.png using Guid(e38f0eeb7ce434efb92618f1890d711a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '084d81db36eb93542d0dd8ec1e634c92') in 0.011239 seconds 
+  Import took 0.013894 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.036086 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner D.png
+  artifactKey: Guid(10cdd75f9eefc4d99ba973b841026f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner D.png using Guid(10cdd75f9eefc4d99ba973b841026f25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6cdb636fb1b61c562499045c60a9e828') in 0.013615 seconds 
+  Import took 0.016109 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000259 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner D - Wood.png
+  artifactKey: Guid(5b7b2219011794c91b3a2d67aec6a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner D - Wood.png using Guid(5b7b2219011794c91b3a2d67aec6a9f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b0268624cfc1e713ee6ba5280a68ff5') in 0.011006 seconds 
+  Import took 0.013506 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000191 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner E - Wood.png
+  artifactKey: Guid(f057046920a1d477bbb80af52b9cff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner E - Wood.png using Guid(f057046920a1d477bbb80af52b9cff6a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '824961c8d19da92a896359b2bba20341') in 0.011128 seconds 
+  Import took 0.013865 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner E.png
+  artifactKey: Guid(ee7364f58d5834133ade8765b6f4f26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Banner E.png using Guid(ee7364f58d5834133ade8765b6f4f26f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '19ddfb33cb776c0f3eac9677b691c430') in 0.011576 seconds 
+  Import took 0.014099 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.345448 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Barrel_Base_Color.png
+  artifactKey: Guid(98cc57cb44ccb41a39a9894950ea5bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Barrel_Base_Color.png using Guid(98cc57cb44ccb41a39a9894950ea5bf6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68d0dc36c633f12382305787a23cd866') in 0.011012 seconds 
+  Import took 0.013493 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000254 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Medieval_Cook.png
+  artifactKey: Guid(d71aa14a90ea04f19acd3cfd91f9b472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Medieval_Cook.png using Guid(d71aa14a90ea04f19acd3cfd91f9b472) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f8fc0db5a16b09d217f882061e15777c') in 0.010724 seconds 
+  Import took 0.013138 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.027721 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Medieval_Well.png
+  artifactKey: Guid(71e0800801cfc413da39013c41e674af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Medieval_Well.png using Guid(71e0800801cfc413da39013c41e674af) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e58c68de7682cfac66e8e23106040a0') in 0.010161 seconds 
+  Import took 0.012874 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000261 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Metal_Wall_Grid_Pillar_Base_Color.png
+  artifactKey: Guid(96126c3180d68433e88f6ab595219f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Metal_Wall_Grid_Pillar_Base_Color.png using Guid(96126c3180d68433e88f6ab595219f3f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '537d55e58f3c193c733eb97f9e9ec27f') in 0.011333 seconds 
+  Import took 0.014284 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.004369 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Rocks.png
+  artifactKey: Guid(18fc5acde6bc24fcca8b7ac96b07b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Rocks.png using Guid(18fc5acde6bc24fcca8b7ac96b07b261) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c359e7eead394c5b5787bbe68a20c052') in 0.011897 seconds 
+  Import took 0.014455 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000218 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Table_Wall_Base_Color.png
+  artifactKey: Guid(8b9abe6f3f62440989c45fc67e9c3971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Table_Wall_Base_Color.png using Guid(8b9abe6f3f62440989c45fc67e9c3971) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0af3e6700f8a3612861ed0c492ce021c') in 0.014355 seconds 
+  Import took 0.017365 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.251013 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Tree_Base_Color.png
+  artifactKey: Guid(169ee3aaab9a340458babc4f35c69f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Tree_Base_Color.png using Guid(169ee3aaab9a340458babc4f35c69f19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '257e53c08f5144618aee3cb8391a3620') in 0.010780 seconds 
+  Import took 0.013227 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000252 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Wall rock and wood.png
+  artifactKey: Guid(28ead191cde9646cc8b252b33e80045e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Texture, Wall rock and wood.png using Guid(28ead191cde9646cc8b252b33e80045e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b933a7d8cc66ad6af0710c22413a640d') in 0.011295 seconds 
+  Import took 0.014103 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.030352 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Thorn.png
+  artifactKey: Guid(2157c94dd89334272a79526fc3fa0813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Thorn.png using Guid(2157c94dd89334272a79526fc3fa0813) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b01a14911ddefa7e1c0ee6cf564fc38b') in 0.010225 seconds 
+  Import took 0.013111 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.291054 seconds.
+  path: Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Trees and Vegetation.png
+  artifactKey: Guid(c031195609d7b4b8f8f0203efa571e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Medieval/The Beauty Medieval War Banners and PROPS/Textures/Trees and Vegetation.png using Guid(c031195609d7b4b8f8f0203efa571e11) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e0f18fed5e6c548775775b53cec4f5da') in 0.013156 seconds 
+  Import took 0.015697 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.792589 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png
+  artifactKey: Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Circle_Bevel_Base.png using Guid(b74c31d447d2f5d41a61081bdf5e7126) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdebb9a09220bfe0055fbb6c37f85e54') in 0.021216 seconds 
+  Import took 0.023726 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000221 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Circle_Faded.png
+  artifactKey: Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Circle_Faded.png using Guid(90ded0611e490aa4ba6961afbfc2280d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f19a590d9accea089994b0520b583f94') in 0.035455 seconds 
+  Import took 0.038409 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.023673 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png
+  artifactKey: Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Jump.png using Guid(751aa1b6637101946b2fdbb7aa27d6ad) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d2fbf28f146fb1da816d93c68ff5918') in 0.012827 seconds 
+  Import took 0.015383 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000217 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Look.png
+  artifactKey: Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Look.png using Guid(af0ae2dbf3d1efb4f82af377950704a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'aec1a4dc9baf44ab3bcab55732136428') in 0.013795 seconds 
+  Import took 0.016596 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.256753 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Move.png
+  artifactKey: Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Move.png using Guid(ff7bfa7addf40784d86f62b8e4a034a6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '816b37cf18fc7b7d986ec1b0a79e7c1d') in 0.013252 seconds 
+  Import took 0.015776 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000355 seconds.
+  path: Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png
+  artifactKey: Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/StarterAssets/Mobile/UI/UI_Icon_Sprint.png using Guid(b0fa70abd2a79904cb00b175dfd8ec7e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96772262fe2907cc2689dc6d96db93a7') in 0.013599 seconds 
+  Import took 0.015921 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.621154 seconds.
+  path: Assets/Textures/Textures/Water_A.png
+  artifactKey: Guid(1946cf558a9d27644a68c2e335ae6df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Water_A.png using Guid(1946cf558a9d27644a68c2e335ae6df7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd9a7fe83efc38a067a2ff019ec1e5e01') in 0.012550 seconds 
+  Import took 0.015307 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000248 seconds.
+  path: Assets/Glowing Forest/Glowing_Forest/Textures/Water_alpha.png
+  artifactKey: Guid(0a2ffbbc7b5a0db47b581d21c56276bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Glowing Forest/Glowing_Forest/Textures/Water_alpha.png using Guid(0a2ffbbc7b5a0db47b581d21c56276bd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd53a20904558d73c07c7fba8276924e1') in 0.008435 seconds 
+  Import took 0.010855 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.144366 seconds.
+  path: Assets/Textures/Textures/Water_B.png
+  artifactKey: Guid(d149f4b0f0a25fa41b1eca641bda9618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Water_B.png using Guid(d149f4b0f0a25fa41b1eca641bda9618) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b9d9ec711332b509c2d28812c3fefef6') in 0.012031 seconds 
+  Import took 0.014658 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000251 seconds.
+  path: Assets/Textures/Textures/Water_C.png
+  artifactKey: Guid(ce394c0285519a34789bd1bf7495d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Textures/Textures/Water_C.png using Guid(ce394c0285519a34789bd1bf7495d077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '240165c149dc30ae55184b2f2ca5e8d9') in 0.017241 seconds 
+  Import took 0.020220 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 1064.796118 seconds.
+  path: Assets/Village 2/Prefabs/Props
+  artifactKey: Guid(4074df064ec1ac341a3d1ad54cefc56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village 2/Prefabs/Props using Guid(4074df064ec1ac341a3d1ad54cefc56a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e140c4ab701e7b6f89e21f7ace0af001') in 0.004332 seconds 
+  Import took 0.008002 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 2.619615 seconds.
+  path: Assets/Village 2/Prefabs/Props/Wood
+  artifactKey: Guid(02e35356e96446740bb0b519e7fd9289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village 2/Prefabs/Props/Wood using Guid(02e35356e96446740bb0b519e7fd9289) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f02d69ac5ba9a79650527452e187341c') in 0.004061 seconds 
+  Import took 0.007040 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.044049 seconds.
+  path: Assets/Village 2/Prefabs/Props/Wood/rpgpp_lt_log_wood_01.prefab
+  artifactKey: Guid(bbb972e8372282f4093c9484693385fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village 2/Prefabs/Props/Wood/rpgpp_lt_log_wood_01.prefab using Guid(bbb972e8372282f4093c9484693385fd) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1113a5de6eb3c9b8ecbe8ba2b0c2730c') in 0.046118 seconds 
+  Import took 0.049070 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 4.733185 seconds.
+  path: Assets/Village 2/Prefabs/Structures/Parts
+  artifactKey: Guid(5b7738eafaaea9f4ca3069d3dfbee10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village 2/Prefabs/Structures/Parts using Guid(5b7738eafaaea9f4ca3069d3dfbee10a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbbf754a4fce7528f9b663d0bcda07be') in 0.004035 seconds 
+  Import took 0.007084 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.675105 seconds.
+  path: Assets/Village 2/Prefabs/Structures/Parts/Wood_path
+  artifactKey: Guid(922a8b08dfab11944b459f549979fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village 2/Prefabs/Structures/Parts/Wood_path using Guid(922a8b08dfab11944b459f549979fcaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a6ca5989b4afa7a1fc2853293066bddd') in 0.004057 seconds 
+  Import took 0.006969 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.066548 seconds.
+  path: Assets/Village 2/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01a.prefab
+  artifactKey: Guid(c96016c34e7be62488e588470988ef5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village 2/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01a.prefab using Guid(c96016c34e7be62488e588470988ef5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a045e8e89fb63402b6b154d52b58080c') in 0.013771 seconds 
+  Import took 0.016732 seconds .
+
+========================================================================
+Received Import Request.
+  Time since last request: 0.000270 seconds.
+  path: Assets/Village 2/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01b.prefab
+  artifactKey: Guid(0ba258545da721e488ecb71ffd143b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Village 2/Prefabs/Structures/Parts/Wood_path/rpgpp_lt_wood_path_01b.prefab using Guid(0ba258545da721e488ecb71ffd143b6f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6385d4e36a4f8f4211a7ffc76913c162') in 0.015133 seconds 
+  Import took 0.017766 seconds .
+
+AssetImportWorkerClient::OnTransportError - code=2 error=End of file
